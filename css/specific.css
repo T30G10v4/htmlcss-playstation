@@ -3,6 +3,25 @@
 :root {
 
     --ms-header-black: black;
+
+    --ms-text-white: white;
+
+    --ms-bg-new-releases: #1f1f1f;
+
+    --ms-bg-ps-now: #161c3b;
+
+    /* BUTTONS */
+    --ms-button-black: #363636;
+    --ms-button-white: white;
+    --ms-button-orange: #cd3d0f;
+    --ms-button-blue: #2d64e6;
+    --ms-button-grey: #d9dadc;
+    --ms-button-near-white: #f5f5f5;
+
+    /*CTA PLUS*/
+    --ms-bg-cta-plus: #bebcbb;
+
+
     
 }
 
@@ -14,6 +33,70 @@ img {
 }
 
 /*--------------------------------------------------------------COMMON PARTS---------------------*/
+
+/*---------------- MS-BTN -----------------*/
+.ms-btn {
+
+    text-decoration: none;
+    padding: .5rem 1rem;
+    border-radius: 1.5rem;
+
+}
+
+.ms-btn-bg-black {
+
+    background-color: var(--ms-button-black);
+
+}
+
+.ms-btn-bg-orange {
+
+    background-color: var(--ms-button-orange);
+
+}
+
+.ms-btn-bg-blue {
+
+    background-color: var(--ms-button-blue);
+
+}
+
+.ms-btn-bg-grey {
+
+    background-color: var(--ms-button-grey);
+
+}
+
+.ms-btn-bg-near-white {
+
+    background-color: var(--ms-button-near-white);
+
+}
+
+.ms-btn-color-black {
+
+    color: var(--ms-button-black);
+
+}
+
+.ms-btn-color-blue {
+
+    color: var(--ms-button-blue);
+
+}
+
+.ms-btn-color-white {
+
+    color: var(--ms-button-white);
+
+}
+
+.ms-jumbo-background {
+
+    min-height: 55vh;
+    color: var(--ms-text-white);
+
+}
 
 /*--------------------------------------------------------------SPECIFIED PARTS BY ID------------*/
 
@@ -34,12 +117,29 @@ img {
 
 #ms-header-bottom {}
 
+#ms-header-bottom .ms-btn {
+
+    line-height: 40px;
+
+}
 
 /*--------------------------------------------------------------MAIN-----------------------------*/
 #ms-main {}
 
-/*-------------------- JUMBOTRON --------------------*/
-.ms-jumbotron {}
+/*-------------------- JUMBOTRON RETURNAL --------------------*/
+.ms-jumbotron {
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ms-returnal .ms-jumbo-background {
+
+    background-image: url('../img/jumbo-bg.png');
+    
+
+}
 
 /*-------------------- CARDS ------------------------*/
 #ms-cards {}
@@ -53,17 +153,41 @@ img {
 /*-------------------- PERIPHERALS ------------------*/
 #ms-peripherals {}
 
+/*-------------------- JUMBOTRON IT-TAKES-TWO -------*/
+#ms-it-takes-two .ms-jumbo-background {
+
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+
+}
+
 /*-------------------- NEW-RELEASES -----------------*/
-#ms-new-releases {}
+#ms-new-releases {
+
+    background-color: var(--ms-bg-new-releases);
+    color: var(--ms-text-white);
+}
+
+
 
 /*-------------------- EXPLORE-PS4 ------------------*/
 #ms-explore-ps4 {}
 
 /*-------------------- CTA --------------------------*/
-#ms-cta {}
+#playstation-plus {
+
+    background-color: var(--ms-bg-cta-plus);
+
+}
 
 /*-------------------- DISCOUNTS --------------------*/
 #ms-discounts {}
+
+/*-------------------- CTA --------------------------*/
+#playstation-now {
+
+    background-color: var(--ms-bg-ps-now);
+    color: var(--ms-text-white);
+}
 
 /*-------------------- SOCIAL -----------------------*/
 #ms-social {}
