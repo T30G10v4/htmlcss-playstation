@@ -21,6 +21,9 @@
     /*CTA PLUS*/
     --ms-bg-cta-plus: #bebcbb;
 
+    /*FOOTER*/
+    --ms-bg-footer: #00439c;
+
 
     
 }
@@ -194,8 +197,19 @@ img {
 
 
 /*--------------------------------------------------------------FOOTER---------------------------*/
-#ms-footer {}
+#ms-footer {
+
+    background-color: var(--ms-bg-footer);
+    color: var(--ms-text-white);
+
+}
 
 #ms-footer-top {}
+
+#ms-footer-top ul {
+
+    list-style-type: none;
+
+}
 
 #ms-footer-bottom {}
