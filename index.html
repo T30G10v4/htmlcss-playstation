@@ -27,7 +27,7 @@
     <!-- HEADER-TOP -->
     <div id="ms-header-top" class="">
       <div class="ms-brand p-2 text-end">
-        <img src="img/sony_logo.svg" alt="SONY">
+        <img class="rounded" src="img/sony_logo.svg" alt="SONY">
       </div>
     </div>
     <!-- /HEADER-TOP -->
@@ -37,7 +37,7 @@
       <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img src="img/play_logo.svg" alt="">
+            <img class="rounded" src="img/play_logo.svg" alt="">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -116,8 +116,8 @@
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
                 </ul>
               </li>
-              <li class="nav-item"><a href="#" class="ms-btn ms-btn-bg-black ms-btn-color-white">Accedi</a></li>
-              <li class="nav-item d-flex align-items-center"><i class="fa-solid fa-magnifying-glass"></i></li>
+              <li class="nav-item ms-3"><a href="#" class="ms-btn ms-btn-bg-black ms-btn-color-white">Accedi</a></li>
+              <li class="nav-item d-flex align-items-center ms-3"><i class="fa-solid fa-magnifying-glass"></i></li>
             </ul>
           </div>
         </div>
@@ -132,17 +132,19 @@
   <main id="ms-main" class="">
 
     <!-- -------------------------- JUMBOTRON ---------------------- -->
-    <section id="ms-returnal" class="">
-      <div class="ms-jumbotron ms-jumbo-background">
+    <section id="ms-returnal" class="py-5">
+      <div class="ms-jumbotron ms-jumbo-background d-flex align-items-center">
         <div class="container">
-          <div class="ms-jumbo-card">
-            <img class="py-4" src="img/returnal-hero-banner-logo.png" alt="">
-            <h2 class="py-4">Rompi il cerchio</h2>
-            <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Aliquid odio animi eaque vel ullam blanditiis beatae optio quae consectetur 
-              commodi reprehenderit doloribus est non deserunt sapiente quidem 
-              similique, culpa consequuntur?</p>
-            <a href="#" class="ms-btn ms-btn-bg-orange ms-btn-color-white mb-6">Acquista ora</a> 
+          <div class="row">
+            <div class="ms-jumbo-card col-12 col-lg-4">
+              <img class="py-4" src="img/returnal-hero-banner-logo.png" alt="">
+              <h2 class="py-4">Rompi il cerchio</h2>
+              <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aliquid odio animi eaque vel ullam blanditiis beatae optio quae consectetur 
+                commodi reprehenderit doloribus est non deserunt sapiente quidem 
+                similique, culpa consequuntur?</p>
+              <a href="#" class="ms-btn ms-btn-bg-orange ms-btn-color-white mb-6">Acquista ora</a> 
+            </div>
           </div>
         </div>
       </div>
@@ -150,26 +152,26 @@
     <!-- -------------------------- /JUMBOTRON --------------------- -->
 
     <!-- -------------------------- CARDS -------------------------- -->
-    <section id="ms-cards" class="">
+    <section id="ms-cards" class="py-5">
       <div class="container">
         <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6">
           <div class="col">
-            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">            
+            <img class="ms-cards-active rounded" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">            
           </div>
           <div class="col">
-            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+            <img class="rounded" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
           </div>
           <div class="col">
-            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            <img class="rounded" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
           </div>
           <div class="col">
-            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+            <img class="rounded" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
           </div>
           <div class="col">
-            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
+            <img class="rounded" src="img/returnal-listing-thumb-01-ps5.jpg" alt="">
           </div>
           <div class="col">
-            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
+            <img class="rounded" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="">
           </div>
         </div>
       </div>
@@ -179,7 +181,7 @@
     <!-- -------------------------- TEXT-AREA ---------------------- -->
     <section id="ms-text-area" class="">
       <div class="container text-center">
-        <h3>PLAY HAS NO LIMITS</h3>
+        <h5>PLAY HAS NO LIMITS</h5>
         <h2>Ecco la Playstation 5</h2>
         <p>Tuffati in nuove possibilità di gioco completamente inaspettate</p>
       </div>
@@ -189,14 +191,14 @@
     <!-- -------------------------- PLAYSTATION -------------------- -->
     <section id="ms-playstation" class="">
       <div class="container">
-        <div class="row row-cols-1 row-cols-md-2">
+        <div class="row row-cols-1 row-cols-md-2 align-items-center">
           <div class="col">
             <h2>Console PlayStation 5</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
             <a class="ms-btn ms-btn-bg-blue ms-btn-color-white" href="#">Maggiori informazioni</a>
           </div>
           <div class="col">
-            <img src="img/playstation-5-thumb.png" alt="">
+            <img class="rounded" src="img/playstation-5-thumb.png" alt="">
           </div>
         </div>
       </div>
@@ -207,24 +209,24 @@
     <section id="ms-peripherals" class="text-center">
       <div class="container">
         <div class="row row-cols-3 row-cols-md-5">
-          <div class="col">
-            <img src="img/playstation-5-thumb.png" alt="">
+          <div class="col ms-active">
+            <img class="rounded" src="img/playstation-5-thumb.png" alt="">
             <h3 class="d-none d-md-block">Console PS5</h3>
           </div>
           <div class="col">
-            <img src="img/joypad-thumb.png" alt="">
+            <img class="rounded" src="img/joypad-thumb.png" alt="">
             <h3 class="d-none d-md-block">Console PS5</h3>
           </div>
           <div class="col">
-            <img src="img/headset-thumb.png" alt="">
+            <img class="rounded" src="img/headset-thumb.png" alt="">
             <h3 class="d-none d-md-block">Console PS5</h3>
           </div>
           <div class="col">
-            <img src="img/remote-thumb.png" alt="">
+            <img class="rounded" src="img/remote-thumb.png" alt="">
             <h3 class="d-none d-md-block">Console PS5</h3>
           </div>
           <div class="col">
-            <img src="img/camera-thumb.jpg" alt="">
+            <img class="rounded" src="img/camera-thumb.jpg" alt="">
             <h3 class="d-none d-md-block">Console PS5</h3>
           </div>
         </div>
@@ -233,17 +235,19 @@
     <!-- -------------------------- /PERIPHERALS ------------------- -->
 
     <!-- -------------------------- JUMBOTRON ---------------------- -->
-    <section id="ms-it-takes-two" class="">
-      <div class="ms-jumbotron ms-jumbo-background">
+    <section id="ms-it-takes-two" class="pt-5">
+      <div class="ms-jumbotron ms-jumbo-background d-flex align-items-center">
         <div class="container">
-          <div class="ms-jumbo-card">
-            <img class="py-4" src="img/it-takes-two-logo.png" alt="">
-            <h2 class="py-4">Un'avventura cooperativa selvaggia ti attende</h2>
-            <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Aliquid odio animi eaque vel ullam blanditiis beatae optio quae consectetur 
-              commodi reprehenderit doloribus est non deserunt sapiente quidem 
-              similique, culpa consequuntur?</p>
-            <a href="#" class="ms-btn ms-btn-bg-orange ms-btn-color-white mb-6">Acquista ora</a> 
+          <div class="row">
+            <div class="ms-jumbo-card col-12 col-lg-4">
+              <img class="py-4" src="img/it-takes-two-logo.png" alt="">
+              <h2 class="py-4">Rompi il cerchio</h2>
+              <p class="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aliquid odio animi eaque vel ullam blanditiis beatae optio quae consectetur 
+                commodi reprehenderit doloribus est non deserunt sapiente quidem 
+                similique, culpa consequuntur?</p>
+              <a href="#" class="ms-btn ms-btn-bg-orange ms-btn-color-white mb-6">Acquista ora</a> 
+            </div>
           </div>
         </div>
       </div>
@@ -251,57 +255,57 @@
     <!-- -------------------------- /JUMBOTRON --------------------- -->
 
     <!-- -------------------------- NEW-RELEASES ------------------- -->
-    <section id="ms-new-releases" class="">
+    <section id="ms-new-releases" class="py-5">
       <div class="container">
         <h2>Nuove uscite</h2>
         <p>Giochi incredibli per PS4 e PS5 disponibili ora</p>
         <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6">
           <div class="col">
-            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+            <img class="rounded" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
             <h3>Lorem ipsum dolor sit amet</h3>
           </div>
           <div class="col">
-            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+            <img class="rounded" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
             <h3>Lorem ipsum dolor sit amet</h3>
           </div>
           <div class="col">
-            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+            <img class="rounded" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
             <h3>Lorem ipsum dolor sit amet</h3>
           </div>
           <div class="col">
-            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+            <img class="rounded" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
             <h3>Lorem ipsum dolor sit amet</h3>
           </div>
           <div class="col">
-            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+            <img class="rounded" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
             <h3>Lorem ipsum dolor sit amet</h3>
           </div>
           <div class="col">
-            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+            <img class="rounded" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
             <h3>Lorem ipsum dolor sit amet</h3>
           </div>
           <div class="col">
-            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+            <img class="rounded" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
             <h3>Lorem ipsum dolor sit amet</h3>
           </div>
           <div class="col">
-            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+            <img class="rounded" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
             <h3>Lorem ipsum dolor sit amet</h3>
           </div>
           <div class="col">
-            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+            <img class="rounded" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
             <h3>Lorem ipsum dolor sit amet</h3>
           </div>
           <div class="col">
-            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+            <img class="rounded" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
             <h3>Lorem ipsum dolor sit amet</h3>
           </div>
           <div class="col">
-            <img src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
+            <img class="rounded" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
             <h3>Lorem ipsum dolor sit amet</h3>
           </div>
           <div class="col">
-            <img src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
+            <img class="rounded" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
             <h3>Lorem ipsum dolor sit amet</h3>
           </div>
         </div>
@@ -310,26 +314,26 @@
     <!-- -------------------------- /NEW-RELEASES ------------------ -->
 
     <!-- -------------------------- EXPLORE-PS4 -------------------- -->
-    <section id="ms-explore-ps4" class="">
+    <section id="ms-explore-ps4" class="py-5">
       <div class="container">
         <h2>Esplora PlayStation 4</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod vel dolorum sequi eos vero molestias ratione! Totam laboriosam odit eum aperiam. Totam deleniti voluptate saepe non commodi dolorem quaerat est.</p>
       
         <div class="row row-cols-1 row-cols-md-3">
           <div class="col">
-            <img src="img/ps4-slim-homepage-image-block.jpg" alt="">
+            <img class="rounded" src="img/ps4-slim-homepage-image-block.jpg" alt="">
             <h3>PlayStation 4</h3>
             <p>lorem ipsum dolor sit amet</p>
             <a class="ms-btn ms-btn-bg-blue ms-btn-color-white" href="#">Scopri di più</a>            
           </div>
           <div class="col">
-            <img src="img/ps4-slim-homepage-image-block.jpg" alt="">
+            <img class="rounded" src="img/ps4-slim-homepage-image-block.jpg" alt="">
             <h3>PlayStation 4</h3>
             <p>lorem ipsum dolor sit amet</p>
             <a class="ms-btn ms-btn-bg-blue ms-btn-color-white" href="#">Scopri di più</a>
           </div>
           <div class="col">
-            <img src="img/ps4-slim-homepage-image-block.jpg" alt="">
+            <img class="rounded" src="img/ps4-slim-homepage-image-block.jpg" alt="">
             <h3>PlayStation 4</h3>
             <p>lorem ipsum dolor sit amet</p>
             <a class="ms-btn ms-btn-bg-blue ms-btn-color-white" href="#">Scopri di più</a>
@@ -343,14 +347,14 @@
     <!-- -------------------------- CTA ---------------------------- -->
     <section id="playstation-plus" class="ms-cta">
       <div class="container">
-        <div class="row row-cols-1 row-cols-md-2">
+        <div class="row row-cols-1 row-cols-md-2 align-items-center">
           <div class="col">
-            <img src="img/ps-plus-logo.png" alt="">
+            <img class="rounded" src="img/ps-plus-logo.png" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem distinctio corporis at similique cum minus repellendus sint! Repudiandae veniam officia numquam cumque ab expedita quisquam inventore, eligendi veritatis laboriosam dolor?</p>
             <a class="ms-btn ms-btn-bg-grey ms-btn-color-blue" href="#">Esplora PlayStation Plus</a>
           </div>
           <div class="col d-none d-md-block">
-            <img src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
+            <img class="rounded" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="">
           </div>
         </div>
       </div>
@@ -358,19 +362,19 @@
     <!-- -------------------------- /CTA --------------------------- -->
 
     <!-- -------------------------- DISCOUNTS ---------------------- -->
-    <section id="ms-discounts" class="text-center">
+    <section id="ms-discounts" class="text-center py-5">
       <div class="container">
         <h2>Nuovi sconti sul PlayStation Store</h2>
         <p>Sconti pazzeschi, collezioni curate e saldi stagionali su ps5, ps4 ecc ecc</p>
-        <div class="row row-cols-1 row-cols-md-3">
+        <div class="row row-cols-1 row-cols-md-3 g-3">
           <div class="col">
-            <img src="img/playstation-store-free-to-play-spotlight.png" alt="">
+            <img class="rounded" src="img/playstation-store-games-under-20-spotlight.jpg" alt="">
           </div>
           <div class="col">
-            <img src="img/playstation-store-free-to-play-spotlight.png" alt="">
+            <img class="rounded" src="img/playstation-store-golden-week-sale-spotlight.jpg" alt="">
           </div>
           <div class="col">
-            <img src="img/playstation-store-free-to-play-spotlight.png" alt="">
+            <img class="rounded" src="img/playstation-store-free-to-play-spotlight.png" alt="">
           </div>
         </div>
       </div>
@@ -378,16 +382,16 @@
     <!-- -------------------------- /DISCOUNTS --------------------- -->
 
     <!-- -------------------------- CTA ---------------------------- -->
-    <section id="playstation-now" class="ms-cta">
+    <section id="playstation-now" class="ms-cta py-5">
       <div class="container">
         <div class="row row-cols-1 row-cols-md-2">
           <div class="col">
-            <img src="img/ps-now-logo-two-column.png" alt="">
+            <img class="rounded" src="img/ps-now-logo-two-column.png" alt="">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem distinctio corporis at similique cum minus repellendus sint! Repudiandae veniam officia numquam cumque ab expedita quisquam inventore, eligendi veritatis laboriosam dolor?</p>
             <a class="ms-btn ms-btn-bg-near-white ms-btn-color-black" href="#">Esplora PlayStation Plus</a>
           </div>
           <div class="col d-none d-md-block">
-            <img src="img/ps-now-april-featured-image-block.png" alt="">
+            <img class="rounded" src="img/ps-now-april-featured-image-block.png" alt="">
           </div>
         </div>
       </div>
@@ -395,15 +399,15 @@
     <!-- -------------------------- /CTA --------------------------- -->
 
     <!-- -------------------------- SOCIAL ------------------------- -->
-    <section id="ms-social" class="text-center">
+    <section id="ms-social" class="text-center py-5">
       <div class="container">
         <div class="ms-custom-social-container">
           <h2>Seguici sui social media</h2>
           <div class="row row-cols-2 row-cols-sm-4">
-            <div class="col"><img src="img/twitter.jpg" alt=""></div>
-            <div class="col"><img src="img/twitter.jpg" alt=""></div>
-            <div class="col"><img src="img/twitter.jpg" alt=""></div>
-            <div class="col"><img src="img/twitter.jpg" alt=""></div>
+            <div class="col"><img class="rounded" src="img/twitter.jpg" alt=""></div>
+            <div class="col"><img class="rounded" src="img/facebook.jpg" alt=""></div>
+            <div class="col"><img class="rounded" src="img/instagram.jpg" alt=""></div>
+            <div class="col"><img class="rounded" src="img/youtube.png" alt=""></div>
           </div>
         </div>
       </div>
@@ -415,43 +419,43 @@
   <!-- /MAIN -->
 
   <!-- ----------------------------------------------- FOOTER ------------------------------- -->
-  <footer id="ms-footer" class="">
+  <footer id="ms-footer" class="py-5">
 
     <!-- FOOTER-TOP -->
     <section id="ms-footer-top" class="">
       <div class="container">
         <div class="row row-cols-1 row-cols-lg-2">
           <div class="col">
-            <img src="img/ps-footer.svg" alt="">
-            <p><i class="fa-solid fa-globe"></i>Country/Region: Italy</p>
+            <img class="rounded mb-5" src="img/ps-footer.svg" alt="">
+            <p><i class="fa-solid fa-globe me-2"></i>Country/Region: Italy</p>
           </div>
           <div class="col">
             <div class="row row-cols-1 row-cols-md-3">
               <div class="col">
                 <ul>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
+                  <li><a href="#">Link footer n</a></li>
+                  <li><a href="#">Link footer n</a></li>
+                  <li><a href="#">Link footer n</a></li>
+                  <li><a href="#">Link footer n</a></li>
+                  <li><a href="#">Link footer n</a></li>
                 </ul>
               </div>
               <div class="col">
                 <ul>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
+                  <li><a href="#">Link footer n</a></li>
+                  <li><a href="#">Link footer n</a></li>
+                  <li><a href="#">Link footer n</a></li>
+                  <li><a href="#">Link footer n</a></li>
+                  <li><a href="#">Link footer n</a></li>
+                  <li><a href="#">Link footer n</a></li>
+                  <li><a href="#">Link footer n</a></li>
                 </ul>
               </div>
               <div class="col">
                 <ul>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
-                  <li>Link footer n</li>
+                  <li><a href="#">Link footer n</a></li>
+                  <li><a href="#">Link footer n</a></li>
+                  <li><a href="#">Link footer n</a></li>
                   
                 </ul>
               </div>
@@ -465,7 +469,11 @@
     <!-- FOOTER-BOTTOM -->
     <section id="ms-footer-bottom" class="">
       <div class="container">
-        <img src="img/sie-logo.svg" alt="">
+        <div class="row">
+          <div class="col-2">
+            <img class="rounded" src="img/sie-logo.svg" alt="">
+          </div>
+        </div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam tempora deserunt doloribus autem labore fuga, impedit sed repellendus quasi porro omnis rem illo temporibus nostrum libero dolor aperiam earum officia.</p>
       </div>
     </section>

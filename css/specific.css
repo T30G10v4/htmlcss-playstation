@@ -154,8 +154,21 @@ img {
 /*-------------------- CARDS ------------------------*/
 #ms-cards {}
 
+#ms-cards .ms-cards-active {
+
+    border: 1px solid var(--ms-button-blue);
+    padding: 1rem;
+
+}
+
 /*-------------------- TEXT-AREA --------------------*/
 #ms-text-area {}
+
+#ms-text-area h5 {
+
+    color: var(--ms-button-blue);
+
+}
 
 /*-------------------- PLAYSTATION ------------------*/
 #ms-playstation {}
@@ -163,12 +176,21 @@ img {
 /*-------------------- PERIPHERALS ------------------*/
 #ms-peripherals {}
 
+#ms-peripherals .ms-active {
+
+    border-bottom: 1px solid var(--ms-button-blue);
+
+}
+
 /*-------------------- JUMBOTRON IT-TAKES-TWO -------*/
 #ms-it-takes-two .ms-jumbo-background {
 
     background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    min-height: 70vh;
 
 }
+
+
 
 /*-------------------- NEW-RELEASES -----------------*/
 #ms-new-releases {
@@ -186,6 +208,12 @@ img {
 #playstation-plus {
 
     background-color: var(--ms-bg-cta-plus);
+
+}
+
+#playstation-plus .col p {
+
+    font-size: .8rem;
 
 }
 
@@ -223,6 +251,13 @@ img {
 #ms-footer-top ul {
 
     list-style-type: none;
+
+}
+
+#ms-footer-top ul li a {
+
+    text-decoration: none;
+    color: var(--ms-text-white);
 
 }
 
